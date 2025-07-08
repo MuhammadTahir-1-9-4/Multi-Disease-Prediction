@@ -10,8 +10,8 @@ import pickle
 
 # Load models
 heart_model = joblib.load("heart_prediction_model.pkl")
-# diabetes_model = joblib.load("gradient_boosting_model.pkl")
-with open('model_copy.pkl', 'rb') as f:
+
+with open('diabetes_prediction_model.pkl', 'rb') as f:
     diabetes_model = pickle.load(f)
 
 # Diabetes model expected columns
